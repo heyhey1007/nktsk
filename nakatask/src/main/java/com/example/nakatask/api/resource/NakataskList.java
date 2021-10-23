@@ -1,13 +1,13 @@
-package com.example.nakatask.application.resource;
+package com.example.nakatask.api.resource;
 
 
-import com.example.nakatask.domain.repository.NakataskModel;
+import com.example.nakatask.domain.entity.NakataskModel;
 import lombok.Data;
 
 import java.util.ArrayList;
 
 @Data
-public class Nakatask {
+public class NakataskList {
     public ArrayList<NakataskModel> list = new ArrayList<>();
     public Integer count = 0;
 }

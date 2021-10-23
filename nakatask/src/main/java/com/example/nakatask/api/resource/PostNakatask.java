@@ -1,4 +1,4 @@
-package com.example.nakatask.application.resource;
+package com.example.nakatask.api.resource;
 
 import lombok.Data;
 
