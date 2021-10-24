@@ -29,9 +29,7 @@ public class NakataskServiceImpl implements NakataskService {
 
     @Override
     public void postTask(NakataskModel postDataModel) {
-        NakataskModel nakataskModel = new NakataskModel();
-        //
-        nakataskModel.setName(postDataModel.getName());
-        nakataskRepository.postTask(nakataskModel);
+        // インサート処理を実行
+        nakataskRepository.postTask(postDataModel);
     }
 }
